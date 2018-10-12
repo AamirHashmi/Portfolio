@@ -42,8 +42,9 @@
 								<h3>Volcano Escape</h3>
 								<p>Volcano escape was the result of a university group project. The task was to make a game in javascript and for it to be a simple 2d Doodle jump like game, however we wanted to learn new technology so we went above and beyond  utilised the threeJS library to make the game 3d.</p>
 
-								<img src="images/volcanoescape.jpg" height="300" width="500"></img>
-								<img src="images/volcanoescape2.jpg" height="300" width="500"></img>
+								<img src="images/volcanoescape.jpg" height="200" width=""></img>
+								<img src="images/volcanoescape2.jpg" height="200" width=""></img>
+								<img src="images/volcanoescape3.jpg" height="200" width=""></img>
 								<br></br>
 
 								<a href="https://volcanoescape.github.io/">PLAY ONLINE</a>
@@ -54,16 +55,21 @@
 								<h3>Sumo Slam</h3>
 								<p>Sumo slam was my first external project outside of university work. The aim of the game is to knock the opponent player out of the ring. You have access to boost and shield powerups which add more layers of depth to the game. This game was developed using Unity and C# object-oriented programming. However due to my lack of experience in modelling tools such as blender, I was unable to import fitting models for the game so the players are cubes. In the future I would love to revisit this game and add models, more levels and custom music.</p>
 
-								<img src="" height="" width=""></img>
+								<img src="images/sumoslam.jpg" height="200px" width=""></img>
+								<img src="images/sumoslam2.jpg" height="200px" width=""></img>
+								<img src="images/sumoslam4.jpg" height="200px" width=""></img>
 
-								<a href="https://github.com/AamirHashmi/sumoSlam">DOWNLOAD</a>
+								<br></br>
+								
+
+								<a href="download/SUMO SLAM.rar" download>DOWNLOAD</a>
 
 								<hr />
 
 								<h3>Car Park Simulator</h3>
 								<p>I started developing an android application which is an encyclopedia of pokemon from the popular games. I used android studio and Java object oriented programming make it. This app is unfinished mainly due the fact that there are over 800 unique pokemon to make pages for, and doing this would take a large amount of time.</a>.</p>
 
-								<img src="images/carParkSim.jpg" height="720" width="1080"></img>
+								<img src="images/carParkSim.jpg" height="200px" width=""></img>
 								<br></br>
 								<a href="https://github.com/AamirHashmi/systemsModellingAssignment">DOWNLOAD</a>
 
@@ -72,9 +78,9 @@
 								<h3>Pokedex App</h3>
 								<p>I started developing an android application which is an encyclopedia of pokemon from the popular games. I used android studio and Java object oriented programming make it. This app is unfinished mainly due the fact that there are over 800 unique pokemon to make pages for, and doing this would take a large amount of time.</a>.</p>
 
-								<img src="images/pokedexApp.jpg" height="640" width="400"></img>
+								<img src="images/pokedexApp.jpg" height="200px" width=""></img>
 								<img src="images/pokedexApp2
-								.jpg" height="640" width="400"></img>
+								.jpg" height="200px" width=""></img>
 								<br></br>
 								<a href="https://github.com/AamirHashmi/pokedex">DOWNLOAD</a>
 
@@ -88,6 +94,26 @@
 								<a href="https://github.com/AamirHashmi/MovieDatingApp">DOWNLOAD</a>
 
 								<hr />
+
+								<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 
 	</body>
 </html>
